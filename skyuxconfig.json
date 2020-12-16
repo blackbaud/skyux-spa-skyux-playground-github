@@ -3,6 +3,9 @@
   "mode": "easy",
   "compileMode": "aot",
   "host": {
-    "url": "https://docs.blackbaud.com"
+    "url": "https://docs.blackbaud.com",
+    "frameOptions": {
+      "none": true
+    }
   }
 }
