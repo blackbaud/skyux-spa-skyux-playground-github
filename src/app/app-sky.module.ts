@@ -19,6 +19,10 @@ import {
   SkyNavbarModule
 } from '@skyux/navbar';
 
+/**
+ * @deprecated Each SKY UX module should be imported into each feature module
+ * that references the SKY UX module, and this module should be removed.
+ */
 @NgModule({
   exports: [
     SkyAvatarModule,

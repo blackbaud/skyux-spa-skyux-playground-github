@@ -4,7 +4,7 @@ import {
 
 import {
   SkyAppTestModule
-} from '@skyux-sdk/builder/runtime/testing/browser';
+} from 'src/app/__skyux/testing';
 
 import {
   expect
