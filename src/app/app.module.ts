@@ -15,6 +15,7 @@ import {
 import {
   HttpClientModule
 } from '@angular/common/http';
+import { SkyuxModule } from './__skyux';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import {
     BrowserAnimationsModule,
     SkyPagesModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    SkyuxModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
